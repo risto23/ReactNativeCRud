@@ -14,8 +14,8 @@ import DataDiri from './components/DataDiri';
 import ViewUser from './components/ViewUser';
 import DetailUser from './components/DetailUser';
 import InputGambar from './components/InputGambar';
-
-
+import ViewGambar from './components/ViewGambar';
+import EditGambar from './components/EditGambar';
 
 const styles = StyleSheet.create({
   container: {
@@ -143,7 +143,19 @@ const AppStackNavigator = createStackNavigator({
     navigationOptions: {
       header: null,
     },
-  }
+  },
+  ViewGambar :{
+    screen: ViewGambar,
+    navigationOptions: {
+      header: null,
+    },
+  },
+  EditGambar :{
+    screen: EditGambar,
+    navigationOptions: {
+      header: null,
+    },
+  },
 });
 
 const AppContainer = createAppContainer(AppStackNavigator);

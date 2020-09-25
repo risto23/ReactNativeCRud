@@ -105,6 +105,13 @@ export default class Home extends React.Component
             <Text style={styles.btnText}>Gambar</Text>
           </View>
         </TouchableOpacity>
+        <TouchableOpacity
+          activeOpacity={0.2}
+          onPress={() => this.props.navigation.navigate('ViewGambar')}>
+          <View style={styles.btn}>
+            <Text style={styles.btnText}>Semua Gambar</Text>
+          </View>
+        </TouchableOpacity>
       </View>
     );
   }

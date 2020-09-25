@@ -78,7 +78,7 @@ export default class App extends Component {
 
         <Image
           source={this.state.avatarSource}
-          style={{width: '100%', height: 300, margin: 10}}
+          style={{width: '100%', height: 100, margin: 100}}
         />
 
         <TouchableOpacity
